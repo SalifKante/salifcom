@@ -20,7 +20,7 @@ const ProductScreen = () => {
   };
   useEffect(() => {
     fetchProduct();
-  });
+  }, [productId]);
 
   return (
     <>
